@@ -1,7 +1,7 @@
 const expect = require('chai').expect;
 const sinon = require('sinon');
 const mongoose = require('mongoose');
-const MONGODB_URI = 'mongodb+srv://GLCorey:StormEnforcer1@cluster0-hdloo.mongodb.net/test-messages?retryWrites=true&w=majority';
+const MONGODB_URI = `${process.env.MONGODB_URI}`;
 
 const User = require('../models/user');
 const Post = require('../models/post');

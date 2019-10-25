@@ -3,7 +3,7 @@ const path = require('path');
 const app = express();
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-const MONGODB_URI = 'mongodb+srv://GLCorey:StormEnforcer1@cluster0-hdloo.mongodb.net/messages?retryWrites=true&w=majority';
+const MONGODB_URI = `${process.env.MONGODB_URI}`;
 const multer = require('multer');
 
 const feedRoutes = require('./routes/feed');
