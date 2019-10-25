@@ -2,9 +2,9 @@ A couple things need to be set for this to work inside package.json as command l
 <ul>
   <li>
     JWT_SECRET_TOKEN
-  <li/>
+  </li>
   <li>
     MONGODB_URI
-  <li/>
+  </li>
 <ul/>
 
